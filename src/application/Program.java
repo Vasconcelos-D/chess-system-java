@@ -23,6 +23,8 @@ public class Program {
 		ChessPosition target = UI.readChessPosition(sc);
 		
 		ChessPiece capturedPiece = chessMatch.performaceChessMove(source, target);
+		
+		
 		}
 	}
 }
